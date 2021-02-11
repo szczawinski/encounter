@@ -28,4 +28,3 @@ public class GameControllerTest {
                 .andExpect(content().string(containsString("{\"id\":1,\"name\":\"Plan B\"}")));
     }
 }
-
